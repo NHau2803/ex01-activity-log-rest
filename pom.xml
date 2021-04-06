@@ -8,7 +8,7 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ex01.rest</groupId>
-    <artifactId>activity-log</artifactId>
+    <artifactId>activitylog-rest</artifactId>
     <version>0.0.1</version>
     <packaging>war</packaging>
     <name>Activity Log</name>
@@ -24,11 +24,11 @@
     <dependencies>
 
         <!-- Project EXO1 -->
-        <dependency>
-            <groupId>com.ex01.module</groupId>
-            <artifactId>student-module</artifactId>
-            <version>0.0.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.ex01.module</groupId>-->
+<!--            <artifactId>student-module</artifactId>-->
+<!--            <version>0.0.1</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.ex01.module</groupId>
@@ -136,7 +136,7 @@
     </dependencies>
 
     <build>
-        <finalName>activity-log-${project.version}</finalName>
+        <finalName>activitylog-rest-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
